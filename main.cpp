@@ -3,7 +3,15 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    unsigned int base, altura, area;
+
+    cin >> base;
+    cin >> altura;
+
+    area = (base * altura) / 2;
+
+    cout << area << endl;
+
 
     return 0;
 }
